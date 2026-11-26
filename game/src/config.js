@@ -51,7 +51,9 @@ SF.CONFIG = {
         ['vega', 'Falcon-1, you are the shield. Boats first if they get close, fighters if they dive. Do not let anything touch the carrier.'],
         ['gus', 'Gus here. I bolted extra flares on your rails. Spend them like they are free, because the ship is not.'],
       ],
-      goal: 'Sink 4 missile boats, down 4 fighters', target: { kind: 'mixed', count: 8 },
+      // Keep the M3 goal short: the top-bar objective pill clips longer text
+      // against the TIME pill (was 'Sink 4 missile boats, down 4 fighters').
+      goal: 'Sink 4 boats, down 4 fighters', target: { kind: 'mixed', count: 8 },
       enemies: { fighters: 4, cargo: 0, boats: 4 },
     },
     {
