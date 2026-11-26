@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="SKY FALCON — Ace Combat Run: a dense HD jet-combat campaign. Six sorties, lock-on missiles, exploding ships, hangar shop, three save slots.">
+<title>SKY FALCON — Ace Combat Run</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="720"></canvas>
+  <p id="hint">SKY FALCON — Ace Combat Run. Arrows/WASD steer · SHIFT afterburner · SPACE cannon · F missile · C flares · V camera · P pause · M mute · E/Q throttle</p>
+</div>
+<script src="src/config.js"></script>
+<script src="src/audio.js"></script>
+<script src="src/world.js"></script>
+<script src="src/render.js"></script>
+<script src="src/shots.js"></script>
+<script src="src/main.js"></script>
+<script>
+  // Boot once the classic scripts above have all run.
+  if (window.SF && SF.Game) SF.Game.boot();
+</script>
+</body>
+</html>

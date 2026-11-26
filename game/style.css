@@ -1,0 +1,30 @@
+/* SKY FALCON — Ace Combat Run: page chrome around the 1280x720 canvas. */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #050914;
+  color: #eaf6ff;
+  font-family: monospace, ui-monospace, monospace;
+}
+#wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12px;
+}
+#game {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #0d1b3d;
+  border: 2px solid rgba(126, 226, 255, 0.45);
+  border-radius: 8px;
+  cursor: crosshair;
+}
+#hint {
+  margin: 10px 4px 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #9db8cc;
+  text-align: center;
+}
+#hint b { color: #ffd34d; }
